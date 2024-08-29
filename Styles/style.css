@@ -1,5 +1,8 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #3A4750;
+    color: #ffffff; 
+    margin: 0; 
+    font-family: Arial, sans-serif;
 }
 .todo-container {
     background: #ffffff;
@@ -10,4 +13,44 @@ body {
 }
 .completed {
     text-decoration: line-through;
+}
+
+.day-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    min-height: 300px;
+    background-color: #f8f9fa; 
+    margin: 5px; 
+    border-radius: 8px; 
+    max-width: 100%;
+}
+
+.day-container h4 {
+    margin-bottom: 20px; 
+    font-size: 1.5em; 
+}
+
+.list-group {
+    text-align: left;
+}
+
+.list-group-item {
+    cursor: grab;
+}
+
+#trashBin {
+    border: 2px dashed #ff4d4d; 
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #ffffff; 
+    color: #ff4d4d; 
+}
+
+#trashBin i {
+    font-size: 3rem; 
+}
+
+#trashBin p {
+    margin: 10px 0 0; 
 }
